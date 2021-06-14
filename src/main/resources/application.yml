@@ -10,6 +10,7 @@ spring:
             brokers: localhost:9092
             configuration:
               commit.interval.ms: 10000
+              # Directory location for state stores.
               state.dir: state-store
               default:
                 key:
